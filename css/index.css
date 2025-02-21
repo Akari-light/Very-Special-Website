@@ -22,11 +22,12 @@
 }
 
 .title {
-  position: absolute;
   top: 0;
   left: 0;
   color: white;
   font-family: 'Courier New', Courier, monospace;
+  padding: 0 5%;
+  padding-bottom: 6em;
 
   display: flex;
   flex-wrap: wrap;
