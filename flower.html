@@ -7,13 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/gift.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
-  <audio autoplay>
-    <source src="audio/blue (Official Music Video).mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
 
   <!-- Document Title -->
-  <title>送宇宇的礼物</title>
+  <title>送嘉宜的礼物</title>
 </head>
 
 <body class="not-loaded">
@@ -426,20 +422,3 @@
 
 <!-- Import Javascript -->
 <script src="js/main.js"></script>
-<script>
-  // Get the audio element
-  const music = document.getElementById('background-music');
-  
-  // Set an event listener for when the metadata is loaded
-  music.addEventListener('loadedmetadata', () => {
-      // Set the starting time to 30 seconds
-      music.currentTime = 30;
-      // Play the music
-      music.play();
-  });
-
-  // Handle errors gracefully
-  music.addEventListener('error', () => {
-      console.error("An error occurred while loading the audio file.");
-  });
-</script>
